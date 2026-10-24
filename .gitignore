@@ -1,0 +1,26 @@
+# Python virtual environments & bytecode
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and checkpoint files
+.ipynb_checkpoints/
+*.tmp
+*.log

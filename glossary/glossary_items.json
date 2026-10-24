@@ -1,0 +1,24 @@
+{
+  "terms": [
+    {
+      "term": "Algorithm",
+      "category": "computer_science",
+      "definition": "A well-defined sequence of computational steps that transforms an input into an output."
+    },
+    {
+      "term": "Abstraction",
+      "category": "architecture",
+      "definition": "Hiding complex implementation details behind a simplified interface."
+    },
+    {
+      "term": "Bytecode",
+      "category": "runtimes",
+      "definition": "An intermediate instruction set evaluated by a virtual machine."
+    },
+    {
+      "term": "Immutable",
+      "category": "programming",
+      "definition": "An object state that cannot be modified after creation."
+    }
+  ]
+}

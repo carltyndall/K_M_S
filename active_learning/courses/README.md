@@ -30,5 +30,3 @@ Every course directory follows the standard 4-file scaffold from [`templates/cou
 
 ---
 
-## 📂 Available Courses
-- **[`kms_foundations/`](./kms_foundations/README.md)** — Foundational course on building and maintaining your Knowledge Management System.

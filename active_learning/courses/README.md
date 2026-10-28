@@ -27,7 +27,6 @@ Every course directory follows the standard 4-file scaffold from [`templates/cou
 2. **Plan:** Outline modules and objectives in `00-overview.md` and `01-syllabus.md`.
 3. **Execute:** Record insights in `02-notes.md` and solve problem sets in `03-exercises.md`.
 4. **Distill:** Promote reusable mental models to [`concepts/`](../../concepts/README.md) and tool workflows to [`software/`](../../software/README.md) using the [Distillation Workflow](../../workflows/02-knowledge-distillation-and-promotion-workflow.md).
-5. **Version a course project:** Tag and release each lesson as `v<Section>.<Lesson>` using the [Course Project Versioning Workflow](../../workflows/03-course-project-versioning-workflow.md).
 
 ---
 

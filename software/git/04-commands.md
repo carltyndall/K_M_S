@@ -9,7 +9,3 @@ Quick-reference cheat sheet for everyday Git operations.
 | `git log --oneline -n 5` | View last 5 commits in concise single-line format |
 | `git add <file>` | Stage file for next commit |
 | `git commit -m "<msg>"` | Create permanent snapshot with message |
-| `git tag -a vN.M -m "<title>"` | Annotated course checkpoint (`v<Section>.<Lesson>`) |
-| `git push origin vN.M` | Publish the tag for GitHub Releases |
-| `git checkout vN.M` | Restore the project at a lesson snapshot |
-| `git diff vN.M vN.M+1` | Compare start vs end of a lesson |

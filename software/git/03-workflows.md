@@ -13,18 +13,5 @@ Step-by-step sequences for tracking daily knowledge updates.
    ```
 3. Commit with a meaningful message:
    ```powershell
-    git commit -m "docs: add daily learning log for today"
-    ```
-
-## 🏷️ Course Project Checkpoint (tags + releases)
-
-Use semantic course versioning `v<Section>.<Lesson>` on the student repository. Full SOP: [`workflows/03-course-project-versioning-workflow.md`](../../workflows/03-course-project-versioning-workflow.md).
-
-1. Finish the lesson on a clean commit.
-2. Annotate the checkpoint:
-   ```bash
-   git tag -a v2.1 -m "Version 2.1 - Python Programmer Development Environment"
-   git push origin v2.1
+   git commit -m "docs: add daily learning log for today"
    ```
-3. Publish a GitHub Release from that tag so students can download a ZIP without Git.
-4. Students restore a lesson with `git checkout v2.1` or compare with `git diff v2.0 v2.1`.

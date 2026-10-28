@@ -58,7 +58,7 @@ Durable, reusable knowledge that spans multiple programming languages, tools, an
 - **[`meta_learning/`](meta_learning/README.md)** — Methods for learning how to learn, documentation habits, and architectural guidelines.
 - **[`patterns/`](patterns/README.md)** — Reusable naming conventions, code layout standards, and minimal working examples.
 - **[`templates/`](templates/README.md)** — Master scaffolding blueprints for creating new notes, tools, and courses.
-- **[`workflows/`](workflows/README.md)** — Standard Operating Procedures for daily logging, distillation, and course-project versioning.
+- **[`workflows/`](workflows/README.md)** — Standard Operating Procedures for daily logging and note distillation.
 
 ### 🔗 Layer 3: Active Learning ([`active_learning/`](active_learning/README.md))
 The high-velocity workspace where active learning occurs:

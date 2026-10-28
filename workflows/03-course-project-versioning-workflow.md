@@ -104,12 +104,12 @@ Or download the matching GitHub Release if Git is not yet in use.
 
 Fill in topics as lessons are recorded. Only `v1.0` is current.
 
-### Section 1: Course Overview
+### Section 1: Course Introduction
 
 | Version | Topic |
 | :--- | :--- |
-| v1.0 | Course Overview |
-| v1.1 | TBD |
+| v1.0 | Course Introduction |
+| v1.1 | Why Another Python Course |
 | v1.2 | TBD |
 | v1.3 | TBD |
 

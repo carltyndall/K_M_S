@@ -22,3 +22,10 @@ Summarize key insights learned today in your own words.
 
 ## 💡 Takeaways & Next Steps
 - What will you explore tomorrow?
+
+## 🧠 AI Usage
+
+| AI Tool           | Prompt | Tokens |
+|-------------------|--------|--------|
+| Junie Agent       |        | 0.00   |
+| Microsoft Copilot |        |        |

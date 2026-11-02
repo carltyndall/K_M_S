@@ -6,6 +6,7 @@
 
 ## 🎯 Today's Goals
 - [x] Initialize today's daily note from the daily notes template.
+- [ ] Create 
 
 
 ## 📝 Learning Log & Notes

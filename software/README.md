@@ -34,3 +34,4 @@ Every software folder in Layer 1 uses the following standard scaffold:
 
 - **[`python/`](./python/README.md)** — The primary programming language environment.
 - **[`git/`](./git/README.md)** — Distributed version control system for project history.
+- **[`uv/`](./uv/README.md)** — Fast Python package and project manager written in Rust.

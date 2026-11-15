@@ -28,4 +28,6 @@ Summarize key insights learned today in your own words.
 | AI Tool           | Prompt | Tokens |
 |-------------------|--------|--------|
 | Junie Agent       |Create the daily_notes for today.        | 0.04  |
+|Junie Agent                   |Rewrite concepts/01_computational_thinking/01-computational-thinking-foundations.md in accordance with concepts/01_computational_thinking/01-computational-thinking-foundations.md.        | 0.11       |
+|Junie Agent                   |Rewrite concepts/02_abstraction/01-understanding-abstraction.md in accordance with concepts/01_computational_thinking/01-computational-thinking-foundations.md.        | 0.11       |
 | Microsoft Copilot |        |        |

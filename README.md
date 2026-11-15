@@ -73,6 +73,8 @@ The high-velocity workspace where active learning occurs:
 
 ## 🚀 Quickstart: How to Use K_M_S as a Student
 
+This file, README.md, contains a guide to help you get started with K_M_S as a student. Likewise, each directory contains a README.md file with more details. Each README.md must be updated with the content added to its directory.
+
 ### Day 1: Daily Journaling
 1. Open [`templates/daily_notes_template/01-daily-notes-template.md`](templates/daily_notes_template/01-daily-notes-template.md).
 2. Copy it into `active_learning/daily_notes/` named with today's date (e.g., `YYYY-MM-DD-daily-notes.md`).

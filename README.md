@@ -28,7 +28,7 @@ The system is organized into three distinct, interconnected layers:
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 🧱 LAYER 1: SOFTWARE-CENTRIC (Where Tools & Configurations Live)            │
 │    software/<tool_name>/ (00-overview to 06-troubleshooting)                │
-│    Example: software/python/, software/git/                                 │
+│    Example: software/python/, software/git/, software/uv/                   │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 🧭 LAYER 2: CROSS-CUTTING KNOWLEDGE (Durable Concepts & Shared Assets)      │
 │    cheat_sheets/ | concepts/ | glossary/ | meta_learning/ | patterns/       │
@@ -41,7 +41,7 @@ The system is organized into three distinct, interconnected layers:
 ```
 
 ### 🧱 Layer 1: Software-Centric Knowledge ([`software/`](software/README.md))
-Tool-specific documentation organized by application name (e.g., `software/python/`, `software/git/`). Every tool directory follows a standard **7-file internal structure**:
+Tool-specific documentation organized by application name (e.g., `software/python/`, `software/git/`, `software/uv/`). Every tool directory follows a standard **7-file internal structure**:
 - `00-overview.md` — High-level purpose and mental models.
 - `01-installation.md` — Installation, setup, and verification.
 - `02-core-concepts.md` — Essential principles specific to the tool.

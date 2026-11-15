@@ -1,12 +1,12 @@
 # Daily Notes: 2026-11-15
 
-**Focus Area:** [e.g., Python Functions, Git Branching]
+**Focus Area:** Concepts and Readmes.
 
 ---
 
 ## 🎯 Today's Goals
-- [ ] Goal 1
-- [ ] Goal 2
+- [ ] Review and update the README.md in each directory.
+- [ ] Review and update each concept in the concepts directory to align with templates/concept_template/01-concept-template.md.
 
 ## 📝 Learning Log & Notes
 Summarize key insights learned today in your own words.
@@ -28,6 +28,7 @@ Summarize key insights learned today in your own words.
 | AI Tool           | Prompt | Tokens |
 |-------------------|--------|--------|
 | Junie Agent       |Create the daily_notes for today.        | 0.04  |
-|Junie Agent                   |Rewrite concepts/01_computational_thinking/01-computational-thinking-foundations.md in accordance with concepts/01_computational_thinking/01-computational-thinking-foundations.md.        | 0.11       |
-|Junie Agent                   |Rewrite concepts/02_abstraction/01-understanding-abstraction.md in accordance with concepts/01_computational_thinking/01-computational-thinking-foundations.md.        | 0.11       |
+|Junie Agent                   |Rewrite concepts/01_computational_thinking/01-computational-thinking-foundations.md in accordance with templates/concept_template/01-concept-template.md.        | 0.11       |
+|Junie Agent                   |Rewrite concepts/02_abstraction/01-understanding-abstraction.md in accordance with templates/concept_template/01-concept-template.md.        | 0.07       |
+|Junie Agent                   |Rewrite cconcepts/03_version_control/01-version-control-principles.md in accordance with templates/concept_template/01-concept-template.md.        | 0.06       |
 | Microsoft Copilot |        |        |

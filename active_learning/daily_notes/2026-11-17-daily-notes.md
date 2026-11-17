@@ -8,11 +8,13 @@
 - [x] Initialize daily notes for 2026-11-17 following the daily learning workflow.
 - [x] Maintain 1:1 Dual-Format Parity across Markdown (`.md`) and Jupyter Notebook (`.ipynb`) formats.
 - [x] Document daily active learning reflections, code snippets, and AI interactions.
+- [x] Review AI chats and integrate interaction logs into active learning daily notes.
 
 ## 📝 Learning Log & Notes
 - **Low-Friction Capture & Distillation Pipeline:** Establishing a consistent daily logging habit reduces cognitive overhead and ensures critical discoveries, command workflows, and troubleshooting patterns are preserved for distillation into permanent knowledge bases.
 - **Dual-Format Parity for Practical Utility:** Synchronizing Markdown notes with interactive Jupyter Notebooks ensures all theoretical notes can be directly referenced, executed, and tested in computational environments without friction.
 - **Iterative Knowledge Refinement:** Systematically recording errors and solutions produces high-value reference points that prevent redundant troubleshooting and maximize future productivity.
+- **AI Session Auditing & Distillation:** Tracking AI agent prompts, token expenditures, and session outcomes provides measurable insights into tool utility and optimizes future prompting strategies.
 
 ## 🛠️ Commands & Code Snippets Learned
 ```python
@@ -37,10 +39,12 @@ print(f"Daily note scaffold active for: {today}")
 ## 💡 Takeaways & Next Steps
 - Continue logging daily experimentation and code spikes in `active_learning/experiments/`.
 - Review and promote recurring code patterns and mental models into `cheat_sheets/` and `concepts/`.
+- Maintain regular reviews of AI interactions to systematically track prompt efficiency and knowledge utility.
 
 ## 🧠 AI Usage
 
-| AI Tool           | Prompt | Tokens |
-|-------------------|--------|--------|
-| Junie Agent       | Create the daily_notes for today. | 0.00   |
-| Microsoft Copilot |        |        |
+| AI Tool           | Prompt | Cost / Tokens |
+|-------------------|--------|---------------|
+| Junie Agent       | Create the daily_notes for today. | $0.06 |
+| Junie Agent       | Review AI chats and add to active_learning/daily_notes | $0.05 |
+| Microsoft Copilot | General query and research assistance. | - |

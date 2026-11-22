@@ -28,4 +28,5 @@ Summarize key insights learned today in your own words.
 | AI Tool | Prompt | Tokens |
 |---------|--------|--------|
 | Junie Agent | Initialize today's daily notes | Not available |
+| Junie Agent | Update daily notes | Not available |
 | Microsoft Copilot | | |

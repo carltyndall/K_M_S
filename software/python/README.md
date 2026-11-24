@@ -12,3 +12,4 @@ Comprehensive starter reference and operational guide for using Python within yo
 - [Built-in functions](./built_in_functions/README.md)
 - [Built-in types](./built_in_types/README.md)
 - [Keywords](./keywords/README.md)
+- [Built-in constants](./built_in_constants/README.md)

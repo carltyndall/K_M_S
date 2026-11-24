@@ -1,5 +1,13 @@
 [markdown_to_notebooks]
 directories = [
+  ".",
+  "active_learning",
+  "active_learning/courses",
+  "active_learning/daily_notes",
+  "active_learning/experiments",
+  "active_learning/learning_queue",
+  "active_learning/reference_library",
+  "active_learning/research",
   "software/python/built_in_constants",
   "software/python/built_in_functions",
   "software/python/built_in_types",

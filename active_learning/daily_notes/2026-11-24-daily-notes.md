@@ -1,6 +1,6 @@
 # Daily Notes: 2026-11-24
 
-**Focus Area:** [e.g., Python Functions, Git Branching]
+**Focus Area:** Python references, documentation parity, and maintenance tooling
 
 ---
 
@@ -11,6 +11,8 @@
 ## 📝 Learning Log & Notes
 - Added Python references for built-in functions, types, keywords, constants, the data model, and the glossary.
 - Initialized today's daily notes and merged the `builint_functions` branch.
+- Worked on Markdown and notebook parity for Python reference sections, including a Markdown-to-notebook converter.
+- Centralized maintenance tool settings in `config.toml` and refreshed project and tools documentation.
 
 ### Git Commits
 - `ffeb525` — Add Python built-in functions reference
@@ -21,6 +23,12 @@
 - `50f21b0` — Add Python glossary reference
 - `bf93f2e` — Add daily notes for 2026-11-24
 - `ac592dd` — Merge branch 'builint_functions'
+- `369daa1` — Update daily notes for 2026-11-24
+- `9e52448` — Add Python built-in constants and functions pages
+- `351fcdc` — Add Markdown-to-notebook converter tools
+- `e5471b8` — Add shared configuration for maintenance tools
+- `261b21a` — Update README with Python reference and tools guidance
+- `8d38d03` — Update README notebooks and converter configuration
 
 ## 🛠️ Commands & Code Snippets Learned
 ```python
@@ -40,4 +48,10 @@
 |---------|--------|--------|
 | Junie Agent | Initialize today's daily notes | Not available |
 | Junie Agent | Update today's daily notes including git commits | Not available |
+| Junie Agent | Create Python reference pages and alphabetical and grouped indexes; extend the process to types, keywords, constants, the data model, and glossary | Not available |
+| Junie Agent | Update dual-format parity | Not available |
+| Junie Agent | Establish Markdown and notebook parity across Python reference sections; add and run a converter, replace Ruby tools with Python versions, and document the tools | Not available |
+| Junie Agent | Centralize tool configuration in `config.toml` | Not available |
+| Junie Agent | Update `README.md` (two chats) | Not available |
+| Junie Agent | Update daily notes with today's AI chats and git commits | 0.27 |
 | Microsoft Copilot | | |

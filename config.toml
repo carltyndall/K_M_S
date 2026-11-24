@@ -1,0 +1,19 @@
+[markdown_to_notebooks]
+directories = [
+  "software/python/built_in_constants",
+  "software/python/built_in_functions",
+  "software/python/built_in_types",
+  "software/python/data_model",
+  "software/python/exceptions",
+  "software/python/expressions",
+  "software/python/glossary",
+  "software/python/keywords",
+  "software/python/methods",
+  "software/python/standard_library",
+  "software/python/statements",
+]
+
+[pycharm]
+default_path = "."
+cli_launchers = ["pycharm", "charm", "pycharm64.exe"]
+macos_apps = ["PyCharm", "PyCharm CE", "PyCharm Professional"]

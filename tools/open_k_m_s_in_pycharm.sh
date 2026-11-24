@@ -24,7 +24,11 @@ if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
   exit 0
 fi
 
-TARGET="${KMS_ROOT}"
+if ! SETTINGS="$(python3 "${SCRIPT_DIR}/config.py")"; then
+  exit 1
+fi
+eval "${SETTINGS}"
+TARGET="${KMS_ROOT}/${DEFAULT_PATH}"
 if [[ $# -ge 1 ]]; then
   ARG="$1"
   if [[ "${ARG}" == /* ]]; then
@@ -48,19 +52,14 @@ launch_with_cli() {
   return 1
 }
 
-# Prefer JetBrains CLI launchers (Toolbox / IDE generated), then macOS open.
-if launch_with_cli pycharm; then
-  exit 0
-fi
-if launch_with_cli charm; then
-  exit 0
-fi
-if launch_with_cli pycharm64.exe; then
-  exit 0
-fi
+for bin in "${CLI_LAUNCHERS[@]}"; do
+  if launch_with_cli "${bin}"; then
+    exit 0
+  fi
+done
 
 if [[ "$(uname -s)" == "Darwin" ]]; then
-  for app in "PyCharm" "PyCharm CE" "PyCharm Professional"; do
+  for app in "${MACOS_APPS[@]}"; do
     if open -na "${app}" --args "${TARGET}" 2>/dev/null; then
       exit 0
     fi

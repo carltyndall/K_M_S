@@ -8,14 +8,8 @@ import hashlib
 import json
 import re
 import sys
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-SECTIONS = (
-    "built_in_constants", "built_in_functions", "built_in_types", "data_model",
-    "exceptions", "expressions", "glossary", "keywords", "methods",
-    "standard_library", "statements",
-)
+from config import ROOT, load_config, relative_path, string_list
 
 
 def notebook_path(markdown):
@@ -84,8 +78,18 @@ def check(markdown, path):
 def run(args):
     if args not in ([], ["--check"]):
         raise ValueError("Usage: uv run tools/markdown_to_notebooks.py [--check]")
-    files = [path for section in SECTIONS
-             for path in sorted((ROOT / "software" / "python" / section).rglob("*.md"))]
+    try:
+        directories = string_list(load_config()["markdown_to_notebooks"]["directories"],
+                                  "markdown_to_notebooks.directories")
+        directories = [ROOT / relative_path(directory, "markdown_to_notebooks.directories")
+                       for directory in directories]
+        for directory in directories:
+            if not directory.is_dir():
+                raise ValueError(f"Not a directory: {directory}")
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print(f"error loading config.toml: {error}", file=sys.stderr)
+        return 1
+    files = sorted({path for directory in directories for path in directory.rglob("*.md")})
     destinations = {}
     for file in files:
         destinations.setdefault(notebook_path(file), []).append(file)

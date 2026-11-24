@@ -50,6 +50,8 @@ Tool-specific documentation organized by application name (e.g., `software/pytho
 - `05-projects/` — Lightweight learning artifacts and code spikes.
 - `06-troubleshooting.md` — Error logs, root cause analysis, and fixes.
 
+The included [Python reference](software/python/README.md) also covers built-in constants, functions and types, exceptions, keywords, expressions, statements, methods, the data model, the standard library, and a Python glossary. Each topic has its own index and reference pages.
+
 ### 🧭 Layer 2: Cross-Cutting Knowledge
 Durable, reusable knowledge that spans multiple programming languages, tools, and environments:
 - **[`cheat_sheets/`](cheat_sheets/README.md)** — Quick-reference summaries and command cheat sheets.
@@ -68,6 +70,22 @@ The high-velocity workspace where active learning occurs:
 - **[`learning_queue/`](active_learning/learning_queue/README.md)** — Prioritized backlog of topics to explore.
 - **[`reference_library/`](active_learning/reference_library/README.md)** — Curated books, official documentation links, and articles.
 - **[`research/`](active_learning/research/README.md)** — Deep-dive exploratory notes and preliminary studies.
+
+### 🛠️ Repository Maintenance ([`tools/`](tools/README.md))
+
+Maintenance utilities support the knowledge base outside the three content layers:
+- **Markdown-to-notebook converter** — Creates missing notebooks and checks existing pairs in the directories configured in [`config.toml`](config.toml). It does not overwrite existing notebooks or execute examples.
+- **PyCharm launcher** — Opens the repository or a selected directory using the configured launcher or macOS application.
+
+Both utilities require Python 3.11 or newer. From the repository root, use:
+
+```bash
+uv run --no-project tools/markdown_to_notebooks.py        # Create missing notebooks and check pairs
+uv run --no-project tools/markdown_to_notebooks.py --check # Check without creating files
+bash tools/open_k_m_s_in_pycharm.sh                       # Open the configured default path
+```
+
+See the [tools guide](tools/README.md) for configuration, launcher options, and converter tests.
 
 ---
 
@@ -96,5 +114,5 @@ This file, README.md, contains a guide to help you get started with K_M_S as a s
 - **Directories:** Named in `snake_case` (e.g., `active_learning`, `daily_notes`).
 - **Markdown Files:** Named in `numeric-prefix + kebab-case` (e.g., `01-setup-guide.md`).
 - **Jupyter Notebooks:** Named in `snake_case` (e.g., `01_setup_guide.ipynb`).
-- **1:1 Dual-Format Parity:** Every document exists as both a Markdown file (`.md`) and a Jupyter Notebook (`.ipynb`).
+- **Dual-Format Parity:** Knowledge documents are intended to have both Markdown (`.md`) and Jupyter Notebook (`.ipynb`) versions. The converter checks the directories listed in `config.toml`; it does not cover the whole repository automatically.
 - **No Virtual Environments inside K_M_S:** Execution environments belong outside the knowledge repository.

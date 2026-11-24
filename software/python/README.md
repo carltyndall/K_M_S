@@ -10,3 +10,4 @@ Comprehensive starter reference and operational guide for using Python within yo
 - [05-Projects](./05-projects/README.md)
 - [06-Troubleshooting](./06-troubleshooting.md)
 - [Built-in functions](./built_in_functions/README.md)
+- [Built-in types](./built_in_types/README.md)

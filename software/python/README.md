@@ -19,3 +19,4 @@ Comprehensive starter reference and operational guide for using Python within yo
 - [String and collection methods](./methods/README.md)
 - [Data model and special methods](./data_model/README.md)
 - [Standard library essentials](./standard_library/README.md)
+- [Python glossary](./glossary/README.md)

@@ -1,0 +1,1 @@
+print("integer as text:", str(42), "type:", type(str(42)).__name__)

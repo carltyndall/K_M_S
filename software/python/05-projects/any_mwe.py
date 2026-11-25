@@ -1,0 +1,1 @@
+print("any negative:", any(number < 0 for number in [1, -2, 3]))

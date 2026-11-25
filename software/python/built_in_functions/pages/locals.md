@@ -11,4 +11,6 @@ x = 3
 'x' in locals()  # True
 ```
 
+[Runnable locals MWE](../../05-projects/locals_mwe.py) — run instructions are in the [Python projects guide](../../05-projects/README.md).
+
 [Python documentation](https://docs.python.org/3/builtins/functions.html#locals)

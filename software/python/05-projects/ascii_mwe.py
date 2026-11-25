@@ -1,0 +1,1 @@
+print("escaped representation:", ascii("café"))

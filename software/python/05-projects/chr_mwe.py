@@ -1,0 +1,1 @@
+print("Unicode character:", chr(9731))

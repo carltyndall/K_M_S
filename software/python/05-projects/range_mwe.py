@@ -1,0 +1,1 @@
+print("even numbers:", list(range(0, 7, 2)))

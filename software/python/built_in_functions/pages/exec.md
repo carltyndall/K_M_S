@@ -12,4 +12,6 @@ exec('x = 5', namespace)
 namespace['x']  # 5
 ```
 
+[Runnable exec MWE](../../05-projects/exec_mwe.py) — run instructions are in the [Python projects guide](../../05-projects/README.md).
+
 [Python documentation](https://docs.python.org/3/builtins/functions.html#exec)

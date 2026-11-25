@@ -12,4 +12,6 @@ class B(A):
 B().name()  # 'A'
 ```
 
+[Runnable super MWE](../../05-projects/super_mwe.py) — run instructions are in the [Python projects guide](../../05-projects/README.md).
+
 [Python documentation](https://docs.python.org/3/builtins/functions.html#super)

@@ -12,4 +12,6 @@ class C:
 C().value  # 42
 ```
 
+[Runnable property MWE](../../05-projects/property_mwe.py) — run instructions are in the [Python projects guide](../../05-projects/README.md).
+
 [Python documentation](https://docs.python.org/3/builtins/functions.html#property)

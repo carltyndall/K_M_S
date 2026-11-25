@@ -1,0 +1,1 @@
+print("squares:", list(map(lambda number: number ** 2, [1, 2, 3])))

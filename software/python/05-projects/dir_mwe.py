@@ -1,0 +1,1 @@
+print("list has append:", "append" in dir([]))

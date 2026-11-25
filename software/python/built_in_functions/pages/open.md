@@ -11,4 +11,6 @@ with open('example.txt', encoding='utf-8') as f:
     text = f.read()
 ```
 
+[Runnable open MWE](../../05-projects/open_mwe.py) — run instructions are in the [Python projects guide](../../05-projects/README.md).
+
 [Python documentation](https://docs.python.org/3/builtins/functions.html#open)

@@ -10,4 +10,6 @@ Return the smallest item, optionally using a key function.
 min([3, 1, 2])  # 1
 ```
 
+[Runnable min MWE](../../05-projects/min_mwe.py) — run instructions are in the [Python projects guide](../../05-projects/README.md).
+
 [Python documentation](https://docs.python.org/3/builtins/functions.html#min)

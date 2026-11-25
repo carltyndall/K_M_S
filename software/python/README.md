@@ -15,6 +15,7 @@ Comprehensive starter reference and operational guide for using Python within yo
 - [Built-in constants](./built_in_constants/README.md)
 - [Built-in exceptions](./exceptions/README.md)
 - [Expressions and operators](./expressions/README.md)
+- [Operators and delimiters](./operators_delimiters/README.md)
 - [Statements](./statements/README.md)
 - [String and collection methods](./methods/README.md)
 - [Data model and special methods](./data_model/README.md)

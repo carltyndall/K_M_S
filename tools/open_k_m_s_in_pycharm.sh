@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#tomlib!/usr/bin/env bash
 # Open this KMS repository as a PyCharm project from the shell.
 # Paths are resolved from this script (KMS root = parent of tools/).
 set -euo pipefail

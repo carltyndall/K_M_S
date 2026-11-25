@@ -10,4 +10,6 @@ Raises `EOFError` on end-of-file.
 name = input('Name: ')
 ```
 
+[Runnable input MWE](../../05-projects/input_mwe.py) — run instructions and an example interaction are in the [Python projects guide](../../05-projects/README.md).
+
 [Python documentation](https://docs.python.org/3/builtins/functions.html#input)

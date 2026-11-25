@@ -13,6 +13,8 @@
 - Initialized today's daily notes and merged the `builint_functions` branch.
 - Worked on Markdown and notebook parity for Python reference sections, including a Markdown-to-notebook converter.
 - Centralized maintenance tool settings in `config.toml` and refreshed project and tools documentation.
+- Added runnable minimal working examples for `print`, `input`, and the remaining Python built-in functions, with links from their reference pages and project guidance.
+- In the separate iCloudArchive project, explored launching from `zsh` and configuring a shell alias.
 - air prompt:  Update daily notes with today's AI chats and git commits.
 
 ### Git Commits
@@ -30,6 +32,10 @@
 - `e5471b8` — Add shared configuration for maintenance tools
 - `261b21a` — Update README with Python reference and tools guidance
 - `8d38d03` — Update README notebooks and converter configuration
+- `e4e6e7b` — Update README notebooks and converter configuration
+- `70a34c6` — Add print MWE and project guide instructions
+- `00640a3` — Add input MWE and project guide instructions
+- `89f6542` — Add built-in function MWEs and guide links
 
 ## 🛠️ Commands & Code Snippets Learned
 ```python
@@ -55,4 +61,7 @@
 | Junie Agent | Centralize tool configuration in `config.toml` | Not available |
 | Junie Agent | Update `README.md` (two chats) | Not available |
 | Junie Agent | Update daily notes with today's AI chats and git commits | 0.27 |
+| Junie Agent | Create and integrate MWEs for `print`, `input`, and the remaining built-in functions | Not available |
+| Junie Agent | Run iCloudArchive from `zsh`, create an alias, and troubleshoot the alias after restarting the Mac | Not available |
+| Junie Agent | Update daily notes with today's AI chats and git commits | Not available |
 | Microsoft Copilot | | |

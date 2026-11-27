@@ -46,6 +46,7 @@ Tool-specific documentation can be organized by application name (e.g., `softwar
 - `04-commands.md` — Command references, CLI flags, and shortcuts.
 - `05-projects/` — Lightweight learning artifacts and code spikes.
 - `06-troubleshooting.md` — Error logs, root cause analysis, and fixes.
+- `README.md` — Index of this directory.
 
 ### 🧭 Layer 2: Cross-Cutting Knowledge
 

@@ -14,13 +14,17 @@ Learning programming is not simply about consuming information; retaining, organ
 
 The result is a personal knowledge base that grows in utility and value over time.
 
+## Current project state
+
+This repository is a documentation starter scaffold, not an application or a complete reference library. Its top-level directories contain indexes for organizing future knowledge; `templates/` includes daily and knowledge note templates, `workflows/` includes a learning loop, and `active_learning/daily_notes/` contains an illustrative study note. Tool-specific notes and most reference content are still to be added.
+
 ## 🏗️ Architecture: The Three-Layer Model
 
 ```text
 K_M_S (TEACHABLE KNOWLEDGE MANAGEMENT SYSTEM)
 ├── 🧱 LAYER 1: SOFTWARE-CENTRIC (Tools & Configurations)
 │   software/<tool_name>/ (00-overview to 06-troubleshooting)
-│   Examples: software/python/, software/git/, software/uv/
+│   Potential examples: software/python/, software/git/, software/uv/
 ├── 🧭 LAYER 2: CROSS-CUTTING KNOWLEDGE (Concepts & Shared Assets)
 │   cheat_sheets/ | concepts/ | glossary/ | meta_learning/ | patterns/
 │   templates/ | workflows/
@@ -33,7 +37,7 @@ The directories are a starting scaffold: their indexes describe intended content
 
 ### 🧱 Layer 1: Software-Centric Knowledge ([`software/`](software/README.md))
 
-Tool-specific documentation organized by application name (e.g., [`software/python/`](software/python/README.md), [`software/git/`](software/git/README.md), [`software/uv/`](software/uv/README.md)). A tool directory can grow into this standard **7-part internal structure**:
+Tool-specific documentation can be organized by application name (e.g., `software/python/`, `software/git/`, `software/uv/`). These example directories have not yet been created. A tool directory can grow into this standard **7-part internal structure**:
 
 - `00-overview.md` — High-level purpose and mental models.
 - `01-installation.md` — Installation, setup, and verification.
@@ -42,8 +46,6 @@ Tool-specific documentation organized by application name (e.g., [`software/pyth
 - `04-commands.md` — Command references, CLI flags, and shortcuts.
 - `05-projects/` — Lightweight learning artifacts and code spikes.
 - `06-troubleshooting.md` — Error logs, root cause analysis, and fixes.
-
-The [Python directory](software/python/README.md) provides indexes for future notes on built-in constants, functions and types, exceptions, keywords, expressions, statements, methods, the data model, the standard library, and a Python glossary. It is not yet a complete Python reference.
 
 ### 🧭 Layer 2: Cross-Cutting Knowledge
 
@@ -77,6 +79,6 @@ The workspace where active learning occurs:
 5. Copy the [knowledge note template](templates/knowledge-note.md) into `concepts\` for a general insight or `software\` for tool-specific details. Name it for the topic, link your daily note and source, and include an example and a recall question.
 6. When solving a new problem, retrieve the note, apply the idea, and update it with what you learned. Check current documentation for version-sensitive details.
 
-See the illustrative [daily note](active_learning/daily_notes/2026-11-24-daily-notes.md) and its promoted [Python-specific note](software/python-loops.md). The complete process is in the [learning loop](workflows/learning-loop.md).
+See the illustrative [daily note](active_learning/daily_notes/2026-11-24-daily-notes.md). Its referenced promoted Python note has not yet been added. The complete process is in the [learning loop](workflows/learning-loop.md).
 
 AI can help you explore, but verify suggestions against reliable documentation or a small test before relying on them; do not share private information. Git can preserve your history if you use it, but is not required.

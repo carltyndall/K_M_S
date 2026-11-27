@@ -1,29 +1,3 @@
-# Python statements: alphabetical index
+# Python statements
 
-Simple statements can share a logical line separated by semicolons; compound statements contain suites, either indented blocks or simple statements on the header line. See the [grouped index](01-grouped-index.md), [simple statements](https://docs.python.org/3/reference/simple_stmts.html) and [compound statements](https://docs.python.org/3/reference/compound_stmts.html).
-
-- [Annotations](pages/annotations.md)
-- [Assert](pages/assert.md)
-- [Assignment](pages/assignment.md)
-- [Break](pages/break.md)
-- [Class definitions](pages/class-definitions.md)
-- [Continue](pages/continue.md)
-- [Coroutines](pages/coroutines.md)
-- [Del](pages/del.md)
-- [Expression statements](pages/expression-statements.md)
-- [For](pages/for.md)
-- [Function definitions](pages/function-definitions.md)
-- [Global](pages/global.md)
-- [If](pages/if.md)
-- [Import](pages/import.md)
-- [Match](pages/match.md)
-- [Nonlocal](pages/nonlocal.md)
-- [Pass](pages/pass.md)
-- [Raise](pages/raise.md)
-- [Return](pages/return.md)
-- [Try](pages/try.md)
-- [Type aliases](pages/type-aliases.md)
-- [Type parameter lists](pages/type-parameters.md)
-- [While](pages/while.md)
-- [With](pages/with.md)
-- [Yield](pages/yield.md)
+Add notes on Python statements here.

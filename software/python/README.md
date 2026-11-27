@@ -1,23 +1,17 @@
-# Python Tool Documentation
+# Python
 
-Comprehensive starter reference and operational guide for using Python within your knowledge base.
+Use this directory for Python-specific knowledge. The [loop example](../python-loops.md) is a starting point; the following indexes are placeholders for notes you can add over time, not a complete reference.
 
-- [00-Overview](./00-overview.md)
-- [01-Installation](./01-installation.md)
-- [02-Core Concepts](./02-core-concepts.md)
-- [03-Workflows](./03-workflows.md)
-- [04-Commands](./04-commands.md)
-- [05-Projects](./05-projects/README.md)
-- [06-Troubleshooting](./06-troubleshooting.md)
-- [Built-in functions](./built_in_functions/README.md)
-- [Built-in types](./built_in_types/README.md)
-- [Keywords](./keywords/README.md)
-- [Built-in constants](./built_in_constants/README.md)
-- [Built-in exceptions](./exceptions/README.md)
-- [Expressions and operators](./expressions/README.md)
-- [Operators and delimiters](./operators_delimiters/README.md)
-- [Statements](./statements/README.md)
-- [String and collection methods](./methods/README.md)
-- [Data model and special methods](./data_model/README.md)
-- [Standard library essentials](./standard_library/README.md)
-- [Python glossary](./glossary/README.md)
+- [Built-in constants](built_in_constants/README.md)
+- [Built-in functions](built_in_functions/README.md)
+- [Built-in types](built_in_types/README.md)
+- [Data model](data_model/README.md)
+- [Exceptions](exceptions/README.md)
+- [Expressions](expressions/README.md)
+- [Glossary](glossary/README.md)
+- [Keywords](keywords/README.md)
+- [Methods](methods/README.md)
+- [Operators and delimiters](operators_delimiters/README.md)
+- [Standard library](standard_library/README.md)
+- [Statements](statements/README.md)
+- [Projects](05-projects/README.md)

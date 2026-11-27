@@ -1,1 +1,0 @@
-print("distance from zero:", abs(-7))

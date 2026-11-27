@@ -1,1 +1,0 @@
-print("list from range:", list(range(3)))

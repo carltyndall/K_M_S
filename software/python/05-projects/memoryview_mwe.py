@@ -1,5 +1,0 @@
-data = bytearray(b"cat")
-view = memoryview(data)
-view[0] = ord("b")
-print("shared buffer:", data.decode())
-view.release()

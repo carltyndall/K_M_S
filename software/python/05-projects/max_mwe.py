@@ -1,1 +1,0 @@
-print("longest word:", max(["cat", "horse", "ox"], key=len))

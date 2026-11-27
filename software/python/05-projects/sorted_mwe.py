@@ -1,1 +1,0 @@
-print("sorted by length:", sorted(["horse", "ox", "cat"], key=len))

@@ -1,1 +1,0 @@
-print("number of fruits:", len(["apple", "pear", "plum"]))

@@ -1,1 +1,0 @@
-print("two decimal places:", format(3.14159, ".2f"))

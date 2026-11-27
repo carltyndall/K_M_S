@@ -1,1 +1,0 @@
-print("shortest word:", min(["cat", "horse", "ox"], key=len))

@@ -1,1 +1,0 @@
-print("decimal:", float("3.5"))

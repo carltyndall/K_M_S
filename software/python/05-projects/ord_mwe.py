@@ -1,1 +1,0 @@
-print("Unicode code point:", ord("A"))

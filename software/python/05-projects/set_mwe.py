@@ -1,3 +1,0 @@
-numbers = [1, 2, 2, 3]
-values = set(numbers)
-print("unique values:", sorted(values))

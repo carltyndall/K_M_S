@@ -1,3 +1,3 @@
-# Git Learning Artifacts
+# Git projects
 
-Projects and exercises for practicing Git version control workflows.
+Keep small Git practice artifacts and links to exercises here.

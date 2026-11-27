@@ -1,4 +1,3 @@
-# 📋 Learning Queue
+# Learning queue
 
-Prioritized backlog of topics, technologies, articles, and skills to explore next.
-
+List and prioritize topics to explore here.

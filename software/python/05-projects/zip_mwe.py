@@ -1,1 +1,0 @@
-print("paired names and scores:", list(zip(["Ada", "Lin"], [90, 95])))

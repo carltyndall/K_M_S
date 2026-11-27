@@ -1,4 +1,3 @@
-# uv Learning Projects
+# uv projects
 
-This directory contains lightweight learning artifacts related to uv.
-Note: No virtual environments (.venv) or IDE-specific metadata (.idea) should be stored here.
+Keep small uv practice artifacts and links to exercises here.
